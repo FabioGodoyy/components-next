@@ -4,6 +4,7 @@ import { FooterComponent } from '@/components/footerComponent';
 import { FormComponent } from '@/components/FormComponent';
 import { CardComponent } from '@/components/cardComponent';
 import { HeaderComponent } from '@/components/headerComponent';
+import { HeroComponent } from '@/components/heroComponent';
 
 /**
  * SVGR Support
@@ -19,11 +20,14 @@ import { HeaderComponent } from '@/components/headerComponent';
 
 export default function HomePage() {
   return (
-    <main className='h-screen'>
-      <HeaderComponent />
-      <FormComponent />
-      <CardComponent />
+    <>
+      <div className='pb-40'>
+        <HeaderComponent />
+        <HeroComponent />
+        <FormComponent />
+        <CardComponent />
+      </div>
       <FooterComponent />
-    </main>
+    </>
   );
 }

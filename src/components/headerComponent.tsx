@@ -9,17 +9,26 @@ import { Transition } from '@headlessui/react';
 export const HeaderComponent = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <header className='relative mb-10 flex h-14 w-full justify-center bg-white shadow-xl'>
+    <header className='relative mb-10 flex h-16 w-full justify-center bg-white shadow-xl'>
       <div className='mx-auto flex w-5/6 items-center justify-between'>
         <h1 className='text-3xl'>SYNC</h1>
         <div className='hidden gap-4 md:flex'>
-          <a href='#' className='text-base font-semibold text-stone-500'>
+          <a
+            href='#'
+            className='text-base font-semibold text-stone-500 hover:underline'
+          >
             Home
           </a>
-          <a href='#' className='text-base font-semibold text-stone-500'>
+          <a
+            href='#'
+            className='text-base font-semibold text-stone-500 hover:underline'
+          >
             Estoque
           </a>
-          <a href='#' className='text-base font-semibold text-stone-500'>
+          <a
+            href='#'
+            className='text-base font-semibold text-stone-500 hover:underline'
+          >
             Contato
           </a>
         </div>

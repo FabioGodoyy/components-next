@@ -26,7 +26,7 @@ export const ModalSuccess = () => {
         <Dialog onClose={() => setIsOpen(false)}>
           <Dialog.Panel className='mx-auto flex h-max w-1/3 min-w-[300px] max-w-sm flex-col items-center overflow-y-auto rounded-lg bg-white px-10 py-8 shadow-2xl'>
             <Dialog.Title className='mb-8 text-center text-3xl font-bold text-stone-600'>
-              Parabéns Usuario
+              Parabéns [Usuario]
             </Dialog.Title>
             <div className='mb-6 flex flex-col items-center gap-4'>
               <IoMdCheckmarkCircleOutline
