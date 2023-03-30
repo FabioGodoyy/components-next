@@ -5,6 +5,8 @@ import { FormComponent } from '@/components/FormComponent';
 import { CardComponent } from '@/components/cardComponent';
 import { HeaderComponent } from '@/components/headerComponent';
 import { HeroComponent } from '@/components/heroComponent';
+import { CardComponent2 } from '@/components/cardComponent2';
+import { CarouselComponent } from '@/components/carouselComponent';
 
 /**
  * SVGR Support
@@ -23,8 +25,12 @@ export default function HomePage() {
     <>
       <div className='pb-40'>
         <HeaderComponent />
+        <div className=''>
+          <CarouselComponent />
+        </div>
         <HeroComponent />
         <FormComponent />
+        <CardComponent2 />
         <CardComponent />
       </div>
       <FooterComponent />

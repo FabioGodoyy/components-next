@@ -4,10 +4,8 @@ export const HeroComponent = () => {
       <div className='mx-auto flex h-max w-1/2 flex-col items-center'>
         <p className='text-center text-4xl font-bold'>
           Realize seu{' '}
-          <span className='font-serif text-5xl font-bold text-red-500'>
-            sonho
-          </span>
-          , faça uma busca em nosso acervo
+          <span className=' font-extrabold text-red-500'>sonho</span>, faça uma
+          busca em nosso acervo
         </p>
         <button className='mt-10 h-16 w-56 rounded-2xl bg-red-500 text-lg font-bold text-white'>
           Visualizar estoque
